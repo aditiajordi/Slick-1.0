@@ -12,8 +12,6 @@
 		567A053C1FCBDAC4001F72D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567A053A1FCBDAC4001F72D5 /* Main.storyboard */; };
 		567A053E1FCBDAC4001F72D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A053D1FCBDAC4001F72D5 /* Assets.xcassets */; };
 		567A05411FCBDAC4001F72D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567A053F1FCBDAC4001F72D5 /* LaunchScreen.storyboard */; };
-		56CB9A3D1FCD09CE0075B969 /* Utama.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CB9A3B1FCD09CE0075B969 /* Utama.storyboard */; };
-		56CB9A401FCD0A280075B969 /* kedua.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56CB9A3E1FCD0A280075B969 /* kedua.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +22,6 @@
 		567A053D1FCBDAC4001F72D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		567A05401FCBDAC4001F72D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		567A05421FCBDAC4001F72D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56CB9A3C1FCD09CE0075B969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Slick 1.0/Base.lproj/Utama.storyboard"; sourceTree = "<group>"; };
-		56CB9A3F1FCD0A280075B969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Slick 1.0/Base.lproj/kedua.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +38,6 @@
 		567A052A1FCBDAC4001F72D5 = {
 			isa = PBXGroup;
 			children = (
-				56CB9A3E1FCD0A280075B969 /* kedua.storyboard */,
-				56CB9A3B1FCD09CE0075B969 /* Utama.storyboard */,
 				567A05351FCBDAC4001F72D5 /* Slick 1.0 */,
 				567A05341FCBDAC4001F72D5 /* Products */,
 			);
@@ -131,9 +125,7 @@
 			files = (
 				567A05411FCBDAC4001F72D5 /* LaunchScreen.storyboard in Resources */,
 				567A053E1FCBDAC4001F72D5 /* Assets.xcassets in Resources */,
-				56CB9A401FCD0A280075B969 /* kedua.storyboard in Resources */,
 				567A053C1FCBDAC4001F72D5 /* Main.storyboard in Resources */,
-				56CB9A3D1FCD09CE0075B969 /* Utama.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,22 +158,6 @@
 				567A05401FCBDAC4001F72D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		56CB9A3B1FCD09CE0075B969 /* Utama.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56CB9A3C1FCD09CE0075B969 /* Base */,
-			);
-			name = Utama.storyboard;
-			sourceTree = "<group>";
-		};
-		56CB9A3E1FCD0A280075B969 /* kedua.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56CB9A3F1FCD0A280075B969 /* Base */,
-			);
-			name = kedua.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
