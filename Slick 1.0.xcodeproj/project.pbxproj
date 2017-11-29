@@ -12,6 +12,10 @@
 		567A053C1FCBDAC4001F72D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567A053A1FCBDAC4001F72D5 /* Main.storyboard */; };
 		567A053E1FCBDAC4001F72D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A053D1FCBDAC4001F72D5 /* Assets.xcassets */; };
 		567A05411FCBDAC4001F72D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567A053F1FCBDAC4001F72D5 /* LaunchScreen.storyboard */; };
+		56C696BC1FCE4C0700ED1518 /* Challenge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C696BA1FCE4C0700ED1518 /* Challenge.storyboard */; };
+		56C696BF1FCE4D9A00ED1518 /* Free Speech.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C696BD1FCE4D9A00ED1518 /* Free Speech.storyboard */; };
+		56C696C21FCE4DB300ED1518 /* Native Speaker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C696C01FCE4DB300ED1518 /* Native Speaker.storyboard */; };
+		56C696C51FCE4DCB00ED1518 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C696C31FCE4DCB00ED1518 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		567A053D1FCBDAC4001F72D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		567A05401FCBDAC4001F72D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		567A05421FCBDAC4001F72D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C696BB1FCE4C0700ED1518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Slick 1.0/Base.lproj/Challenge.storyboard"; sourceTree = "<group>"; };
+		56C696BE1FCE4D9A00ED1518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Slick 1.0/Base.lproj/Free Speech.storyboard"; sourceTree = "<group>"; };
+		56C696C11FCE4DB300ED1518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Slick 1.0/Base.lproj/Native Speaker.storyboard"; sourceTree = "<group>"; };
+		56C696C41FCE4DCB00ED1518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Slick 1.0/Base.lproj/Profile.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				567A05361FCBDAC4001F72D5 /* AppDelegate.swift */,
 				567A05381FCBDAC4001F72D5 /* ViewController.swift */,
+				56C696BA1FCE4C0700ED1518 /* Challenge.storyboard */,
+				56C696BD1FCE4D9A00ED1518 /* Free Speech.storyboard */,
+				56C696C01FCE4DB300ED1518 /* Native Speaker.storyboard */,
+				56C696C31FCE4DCB00ED1518 /* Profile.storyboard */,
 				567A053A1FCBDAC4001F72D5 /* Main.storyboard */,
 				567A053D1FCBDAC4001F72D5 /* Assets.xcassets */,
 				567A053F1FCBDAC4001F72D5 /* LaunchScreen.storyboard */,
@@ -124,7 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				567A05411FCBDAC4001F72D5 /* LaunchScreen.storyboard in Resources */,
+				56C696BF1FCE4D9A00ED1518 /* Free Speech.storyboard in Resources */,
 				567A053E1FCBDAC4001F72D5 /* Assets.xcassets in Resources */,
+				56C696BC1FCE4C0700ED1518 /* Challenge.storyboard in Resources */,
+				56C696C21FCE4DB300ED1518 /* Native Speaker.storyboard in Resources */,
+				56C696C51FCE4DCB00ED1518 /* Profile.storyboard in Resources */,
 				567A053C1FCBDAC4001F72D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +174,38 @@
 				567A05401FCBDAC4001F72D5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		56C696BA1FCE4C0700ED1518 /* Challenge.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C696BB1FCE4C0700ED1518 /* Base */,
+			);
+			name = Challenge.storyboard;
+			sourceTree = "<group>";
+		};
+		56C696BD1FCE4D9A00ED1518 /* Free Speech.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C696BE1FCE4D9A00ED1518 /* Base */,
+			);
+			name = "Free Speech.storyboard";
+			sourceTree = "<group>";
+		};
+		56C696C01FCE4DB300ED1518 /* Native Speaker.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C696C11FCE4DB300ED1518 /* Base */,
+			);
+			name = "Native Speaker.storyboard";
+			sourceTree = "<group>";
+		};
+		56C696C31FCE4DCB00ED1518 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C696C41FCE4DCB00ED1518 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
