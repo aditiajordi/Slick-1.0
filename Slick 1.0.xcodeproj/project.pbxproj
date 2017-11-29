@@ -62,18 +62,26 @@
 		567A05351FCBDAC4001F72D5 /* Slick 1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				56AAD0C01FCE9F4F00A3887A /* UI */,
 				567A05361FCBDAC4001F72D5 /* AppDelegate.swift */,
 				567A05381FCBDAC4001F72D5 /* ViewController.swift */,
-				56C696BA1FCE4C0700ED1518 /* Challenge.storyboard */,
-				56C696BD1FCE4D9A00ED1518 /* Free Speech.storyboard */,
-				56C696C01FCE4DB300ED1518 /* Native Speaker.storyboard */,
-				56C696C31FCE4DCB00ED1518 /* Profile.storyboard */,
-				567A053A1FCBDAC4001F72D5 /* Main.storyboard */,
 				567A053D1FCBDAC4001F72D5 /* Assets.xcassets */,
 				567A053F1FCBDAC4001F72D5 /* LaunchScreen.storyboard */,
 				567A05421FCBDAC4001F72D5 /* Info.plist */,
 			);
 			path = "Slick 1.0";
+			sourceTree = "<group>";
+		};
+		56AAD0C01FCE9F4F00A3887A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				56C696BA1FCE4C0700ED1518 /* Challenge.storyboard */,
+				56C696BD1FCE4D9A00ED1518 /* Free Speech.storyboard */,
+				56C696C01FCE4DB300ED1518 /* Native Speaker.storyboard */,
+				56C696C31FCE4DCB00ED1518 /* Profile.storyboard */,
+				567A053A1FCBDAC4001F72D5 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
