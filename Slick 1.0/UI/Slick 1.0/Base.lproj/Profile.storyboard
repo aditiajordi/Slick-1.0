@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fUe-ce-bKd">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,11 +20,11 @@
             <objects>
                 <viewController id="fUe-ce-bKd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ncD-6i-aCi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWY-f9-9Mj">
-                                <rect key="frame" x="135" y="255" width="105" height="28"/>
+                                <rect key="frame" x="154.66666666666666" y="255" width="104.99999999999997" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="105" id="9qc-zR-Jgb"/>
                                     <constraint firstAttribute="height" constant="28" id="xVI-gF-f6W"/>
@@ -34,13 +34,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAM-HX-7P5">
-                                <rect key="frame" x="154" y="295" width="67.5" height="21"/>
+                                <rect key="frame" x="173.33333333333334" y="295" width="67.333333333333343" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <color key="textColor" red="0.96152062679999994" green="0.97911587850000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Em6-ff-ZUk">
-                                <rect key="frame" x="48" y="329.5" width="281" height="29"/>
+                                <rect key="frame" x="48" y="364" width="320" height="29"/>
                                 <color key="backgroundColor" red="0.55060142280000002" green="0.70787757640000004" blue="0.84711861610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="9a4-6e-NtY"/>
@@ -55,23 +55,23 @@
                                 <color key="tintColor" red="0.3221077624" green="0.35076624719999999" blue="0.40268384670000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48P-Dv-Xkj">
-                                <rect key="frame" x="46" y="403.5" width="281" height="36"/>
+                                <rect key="frame" x="46" y="438" width="320" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Notification"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cH-cW-b0S">
-                                <rect key="frame" x="46" y="444.5" width="281" height="36"/>
+                                <rect key="frame" x="46" y="479" width="320" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Feedback &amp; Sharing"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBa-uN-MGl">
-                                <rect key="frame" x="267" y="536.5" width="58" height="31"/>
+                                <rect key="frame" x="306" y="571" width="58" height="31"/>
                                 <color key="backgroundColor" red="0.27664336560000002" green="0.33645823600000002" blue="0.4000993967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Log Out"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIh-7w-Kqh">
-                                <rect key="frame" x="215" y="35" width="40" height="25"/>
+                                <rect key="frame" x="254" y="35" width="40" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="QF4-Ql-Zjs"/>
                                     <constraint firstAttribute="height" constant="25" id="eiL-Yz-hbg"/>
@@ -81,38 +81,38 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LiK-OO-x3c">
-                                <rect key="frame" x="170" y="35" width="30" height="30"/>
+                                <rect key="frame" x="209" y="35" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="0BB-vy-GHJ"/>
                                     <constraint firstAttribute="height" constant="30" id="AIe-uN-6Q5"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGO-hR-X5x">
-                                <rect key="frame" x="295" y="30" width="30" height="30"/>
+                                <rect key="frame" x="334" y="30" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="KNS-gh-P3S"/>
                                     <constraint firstAttribute="width" constant="30" id="NYI-Z1-PiU"/>
                                 </constraints>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OU-FZ-VfS">
-                                <rect key="frame" x="46" y="485.5" width="281" height="36"/>
+                                <rect key="frame" x="46" y="520" width="320" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Terms &amp; Policy"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqN-AF-m8c">
-                                <rect key="frame" x="46" y="362.5" width="281" height="36"/>
+                                <rect key="frame" x="46" y="397" width="320" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <state key="normal" title="Edit your profile"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z7a-Mm-64r">
-                                <rect key="frame" x="130" y="115" width="115" height="115"/>
+                                <rect key="frame" x="149.66666666666666" y="115" width="114.99999999999997" height="115"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="115" id="PM8-g1-FKv"/>
                                     <constraint firstAttribute="width" constant="115" id="dBe-hq-x3y"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7r-f9-bqJ">
-                                <rect key="frame" x="242" y="286" width="69" height="31"/>
+                                <rect key="frame" x="261.33333333333331" y="320.66666666666669" width="69" height="31"/>
                                 <color key="backgroundColor" red="0.27664336560000002" green="0.33645823600000002" blue="0.4000993967" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="nvD-xo-lf1"/>
