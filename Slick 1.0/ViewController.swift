@@ -14,9 +14,11 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
+        /*
         let img: UIImage = UIImage(named: "l1.png")!
         imageButton.image = img
+    */
     }
 
     override func didReceiveMemoryWarning() {
