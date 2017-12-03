@@ -1,0 +1,207 @@
+{
+  "FlashCards": [
+    {
+      "phrase": "good morning",
+      "definition": "selamat pagi",
+      "trivia": "Good morning is often used as a greeting for before 12 p.m. or generally when the sun has rise."
+    },
+    {
+      "phrase": "don’t mention it",
+      "definition": "Jangan sebut itu",
+      "trivia": "is informal way version of You are welcome"
+    },
+    {
+      "phrase": "How are you doing",
+      "definition": "Apa kabarmu?",
+      "trivia": "longer form of the question How are you?"
+    },
+    {
+      "phrase": "I’m doing well",
+      "definition": "saya baik-baik saja",
+      "trivia": "a more formal way of saying I’m good and to answer the question How are you? or How are you doing?"
+    },
+    {
+      "phrase": "By the way",
+      "definition": "ngomong-ngomong",
+      "trivia": "This phrase is used to introduce a subject that may not be directly related to the subject being discussed"
+    },
+    {
+      "phrase": "I appreciate the invite, but",
+      "definition": "saya menghargai atas undangannya, tapi",
+      "trivia": "This is a polite way to say no to an invitation. Sometimes people give a reason for saying no. For example, I appreciate the invite, but we have other plans tonight. Sometimes people don’t give a reason. For example, I appreciate the invite, but I can’t."
+    },
+    {
+      "phrase": "Maybe another time",
+      "definition": "mungkin di lain waktu",
+      "trivia": "After declining an invitation, this phrase is used to suggest another time to do something."
+    }
+  ],
+  "Practice": [
+    [
+      {
+        "phrase": "good morning",
+        "pilihan": [
+          "pagi",
+          "selamat pagi",
+          "selamat siang",
+          "selamat malam"
+        ]
+      },
+      {
+        "phrase": "don’t mention it",
+        "pilihan": [
+          "jangan sebut itu",
+          "jangan sebut",
+          "sebut itu",
+          "tidak apa-apa"
+        ]
+      }
+    ],
+    [
+      {
+        "phrase": "morning",
+        "pilihan": [
+          "morning",
+          "mourning"
+        ]
+      },
+      {
+        "phrase": "you",
+        "pilihan": [
+          "you",
+          "ewe",
+          "u",
+          "yew"
+        ]
+      },
+      {
+        "phrase": "I",
+        "pilihan": [
+          "i",
+          "ay",
+          "aye",
+          "eye"
+        ]
+      },
+      {
+        "phrase": "be",
+        "pilihan": [
+          "be",
+          "b",
+          "bee"
+        ]
+      },
+      {
+        "phrase": "to",
+        "pilihan": [
+          "to",
+          "too",
+          "two"
+        ]
+      },
+      {
+        "phrase": "the",
+        "pilihan": [
+          "the",
+          "thee"
+        ]
+      },
+      {
+        "phrase": "for",
+        "pilihan": [
+          "for",
+          "fore",
+          "four"
+        ]
+      },
+      {
+        "phrase": "your",
+        "pilihan": [
+          "your",
+          "yore",
+          "you’re"
+        ]
+      },
+      {
+        "phrase": "mind",
+        "pilihan": [
+          "mind",
+          "mined"
+        ]
+      },
+      {
+        "phrase": "meet",
+        "pilihan": [
+          "meet",
+          "meat",
+          "mete"
+        ]
+      },
+      {
+        "phrase": "are",
+        "pilihan": [
+          "are",
+          "r"
+        ]
+      },
+      {
+        "phrase": "great",
+        "pilihan": [
+          "great",
+          "grate"
+        ]
+      },
+      {
+        "phrase": "would",
+        "pilihan": [
+          "would",
+          "wood"
+        ]
+      },
+      {
+        "phrase": "please",
+        "pilihan": [
+          "please",
+          "pleas"
+        ]
+      },
+      {
+        "phrase": "it’s",
+        "pilihan": [
+          "it’s",
+          "its"
+        ]
+      },
+      {
+        "phrase": "so",
+        "pilihan": [
+          "so",
+          "sew",
+          "sow"
+        ]
+      },
+      {
+        "phrase": "with",
+        "pilihan": [
+          "with",
+          "withe"
+        ]
+      },
+      {
+        "phrase": "by",
+        "pilihan": [
+          "by",
+          "buy",
+          "bye"
+        ]
+      },
+      {
+        "phrase": "week",
+        "pilihan": [
+          "week",
+          "weak"
+        ]
+      }
+    ]
+  ]
+}
